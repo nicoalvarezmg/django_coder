@@ -1,1 +1,2 @@
-# Proyecto curso python CoderHouse
+# Proyecto curso python CoderHouse con Django
+
