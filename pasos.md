@@ -21,7 +21,7 @@
 18. crear un super usuario que nos permita acceder al apartado de admin de nuestra pagina ejecutando `python manage.py createsuperuser`
     - tener en cuenta que cuando se solicita la password cuando escriben no se muestra en la terminal pero se esta escribiendo igual (esto es para que no se vea la password que estan configurando a modo de seguridad)
 19. crear vistas
-    - crear el path que conectara con su vista en el archivo `urls.py` de la app que corresponda
+    - crear el path que conectara con s  u vista en el archivo `urls.py` de la app que corresponda
     - crear la vista en el archivo `views.py` de la app que corresponda
     - crear el template que utilizaran para la vista dentro de la carpeta templates
     - agregar el link (etiqueta `a`) al path que corresponde a la vista
