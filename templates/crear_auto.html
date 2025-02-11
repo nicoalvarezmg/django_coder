@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Crear Auto</title>
 </head>
 <body>
     <nav>
@@ -11,9 +11,14 @@
         <a href={% url "crear_auto" %}>Crear Auto</a>
         <a href={% url "listado_de_autos" %}>Listado de autos</a>
     </nav>
-    <h1>El inicio de Home</h1>
-<h2>Carpeta de templates</h2>
+    <h1>Formulario de creación</h1>
+
+    <form action="" method="POST">
+        {% csrf_token %}
+        {{formulario}}
+        <input type="submit" value="Crear Auto">
+
+    </form>
+
 </body>
 </html>
-
-
